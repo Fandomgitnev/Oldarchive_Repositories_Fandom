@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweak / Program by Fandomgitnev</title>
+    <style>
+        body { background-color: #121212; color: #fff; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        button { background-color: #bb86fc; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; }
+        button:hover { background-color: #6200ea; }
+    </style>
+    <script>
+        function goToPage2() {
+            document.getElementById("page1").style.display = "none";
+            document.getElementById("page2").style.display = "block";
+        }
+    </script>
+</head>
+<body>
+
+<main id="page1">
+    <button onclick="goToPage2()">Go to Page 2</button>
+</main>
+
+<div id="page2" style="display: none;">
+    <h1>Page 2</h1>
+    <button onclick="window.location.reload()">Restart</button>
+</main>
+
+</body>
+</html>
