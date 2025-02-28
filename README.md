@@ -29,7 +29,6 @@ Tweaks_from_different_people
 TFDP_ARC
 
 # OTHER
-
-[oixro](https://github.com/oixro) 
+[oixro](https://github.com/oixro)
 
 https://github.com/oixro/WOTBO
