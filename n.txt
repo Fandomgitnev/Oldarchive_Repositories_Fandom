@@ -100,5 +100,6 @@ Metro steam
 thems:https://prismlauncher.org/wiki/getting-started/change-themes/
 crack:https://github.com/Diegiwg/PrismLauncher-Cracked
 off:https://prismlauncher.org/
+https://github.com/ElyPrismLauncher/ElyPrismLauncher/releases
 
 
