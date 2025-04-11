@@ -35,6 +35,8 @@ https://github.com/oixro/WOTBO
 
 # MICROSOFT DELETE 
 
+[Source](https://github.com/ShadowWhisperer/Remove-MS-Edge)
+
 [Remove-Edge.exe](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-Edge.exe?raw=true)
 
 [Remove-EdgeOnly.exe](https://github.com/ShadowWhisperer/Remove-MS-Edge/blob/main/Remove-EdgeOnly.exe?raw=true)
