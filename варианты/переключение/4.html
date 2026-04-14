@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Справка Windows</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Справка Windows</h1>
+    </header>
+
+    <div class="container">
+        <nav>
+            <button class="btn" onclick="showPage('home')">Главная</button>
+            <button class="btn" onclick="showPage('cdm')">Командная строка</button>
+            <button class="btn" onclick="showPage('help')">Справка</button>
+        </nav>
+
+        <!-- Контент для каждой страницы -->
+        <div id="home" class="page-content">
+            <h2>Добро пожаловать в справку Windows!</h2>
+            <p>Выберите раздел из меню, чтобы начать.</p>
+        </div>
+
+        <div id="cdm" class="page-content">
+            <h2>Командная строка</h2>
+            <p>Командная строка Windows позволяет выполнять различные задачи с помощью команд. Примеры команд:</p>
+            <ul>
+                <li><b>dir</b> - отображает список файлов и папок в текущем каталоге.</li>
+                <li><b>cd</b> - изменяет текущий каталог.</li>
+                <li><b>copy</b> - копирует файлы.</li>
+            </ul>
+        </div>
+
+        <div id="help" class="page-content">
+            <h2>Как использовать справку</h2>
+            <p>Для получения справки о команде, введите команду в командной строке:</p>
+            <ul>
+                <li><b>help</b> - выводит список всех доступных команд.</li>
+                <li><b>help [команда]</b> - показывает справку по конкретной команде.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Справка Windows</p>
+    </footer>
+
+    <script>
+        // Функция для отображения разных страниц
+        function showPage(pageId) {
+            // Скрываем все страницы
+            const pages = document.querySelectorAll('.page-content');
+            pages.forEach(page => {
+                page.style.display = 'none';
+            });
+
+            // Показываем нужную страницу
+            const page = document.getElementById(pageId);
+            if (page) {
+                page.style.display = 'block';
+            }
+        }
+
+        // Изначально показываем главную страницу
+        showPage('home');
+    </script>
+</body>
+</html>

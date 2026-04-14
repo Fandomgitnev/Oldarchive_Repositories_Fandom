@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переключение между разделами</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="page1">
+        <h1>Добро пожаловать на страницу 1!</h1>
+        <p>Это содержимое страницы 1.</p>
+    </main>
+
+    <!-- Кнопка для переключения между "страницами" -->
+    <button id="goToPage2Btn">Перейти на страницу 2</button>
+    
+    <!-- Главная страница (page1) -->
+    <main id="page1">
+
+    <!-- Страница 2 (page2), которая изначально скрыта -->
+    <div id="page2" style="display:none;">
+        <h1>Добро пожаловать на страницу 2!</h1>
+        <p>Это содержимое страницы 2.</p>
+        <button id="goBackBtn">Вернуться на страницу 1</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

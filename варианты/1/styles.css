@@ -1,0 +1,52 @@
+/* Основной стиль для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #262626; /* Серый фон */
+    overflow: hidden; /* Отключаем полосы прокрутки */
+    position: relative;
+}
+
+/* Контейнер с контентом */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4d4d4d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    z-index: 1; /* Устанавливаем z-index выше снежинок */
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.0;
+}
+
+/* Стиль для снежинок */
+.snowflake {
+    position: absolute;
+    top: -10px;
+    color: #fff; /* Снежинки остаются белыми */
+    font-size: 1.5em;
+    user-select: none;
+    z-index: 0; /* Устанавливаем снежинки на задний план */
+    animation: fall 10s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg); /* Падает вниз на всю высоту */
+    }
+}

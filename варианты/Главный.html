@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Метаинформация о кодировке и масштабе страницы -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Заголовок страницы, который отображается на вкладке браузера -->
+    <title>Tweak / Program by Fandomgitnev</title>
+    
+    <!-- Стили для страницы -->
+    <style>
+        /* Стиль для всей страницы */
+        body { background-color: #121212; color: #fff; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+        /* Стиль для кнопок */
+        button { background-color: #bb86fc; color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; }
+
+        /* Стиль для кнопки при наведении */
+        button:hover { background-color: #6200ea; }
+    </style>
+    
+    <!-- Сценарий для переключения страниц -->
+    <script>
+        /* Функция для перехода на страницу 2 */
+        function goToPage2() {
+            document.getElementById("page1").style.display = "none"; /* Скрытие первой страницы */
+            document.getElementById("page2").style.display = "block"; /* Отображение второй страницы */
+        }
+    </script>
+</head>
+<body>
+
+<!-- Страница 1 -->
+<main id="page1">
+    <!-- Кнопка для перехода на страницу 2 -->
+    <button onclick="goToPage2()">Go to Page 2</button>
+</main>
+
+<!-- Страница 2, скрыта по умолчанию -->
+<div id="page2" style="display:none;">
+    <h1>Page 2</h1>
+    <!-- Кнопка для перезагрузки страницы -->
+    <button onclick="window.location.reload()">Restart</button>
+</main>
+
+</body>
+</html>
