@@ -585,6 +585,7 @@ echo ║ [34] java Microsoft Build of OpenJDK                 ║
 echo ║ [35] java Oracle                                     ║
 echo ║ [36] java Amazon Corretto                            ║
 echo ║ [37] java                                            ║
+echo ║ [38] IDM                                             ║
 echo ╚══════════════════════════════════════════════════════╝
 set /p Pot3="%hidt1%. %cyan1%>>%rest1%"
 if "%Pot3%"=="1" start https://www.hwinfo.com/
@@ -624,6 +625,7 @@ if "%Pot3%"=="34" start https://learn.microsoft.com//java/openjdk/download
 if "%Pot3%"=="35" start https://www.oracle.com/java/technologies/downloads/
 if "%Pot3%"=="36" start https://aws.amazon.com//corretto/
 if "%Pot3%"=="37" start https://www.java.com/
+if "%Pot3%"=="38" start https://www.internetdownloadmanager.com/
 if "%Pot3%"=="99" goto OOTP2
 ) else (
 goto lastp1
