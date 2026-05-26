@@ -337,7 +337,7 @@ echo ║ [9] Link LockHunter                                  ║
 echo ║ [10] Link Notepad++                                  ║
 echo ║ [11] Link OBS Studio                                 ║
 echo ║ [12] Link qBittorrent                                ║
-echo ║ [13] Link Steam Portable                             ║
+echo ║ [13] Link WindowTop                                  ║
 echo ║ [14] Link Steam                                      ║
 echo ║ [15] Link Epick games                                ║
 echo ║ [16] Link TcNo Account Switcher                      ║
@@ -396,7 +396,7 @@ if "%Pot1%"=="9" start https://lockhunter.com/
 if "%Pot1%"=="10" start https://github.com/notepad-plus-plus/notepad-plus-plus
 if "%Pot1%"=="11" start https://github.com/obsproject/obs-studio
 if "%Pot1%"=="12" start https://www.qbittorrent.org/
-if "%Pot1%"=="13" start https://github.com/jtrent238/SteamPortable/
+if "%Pot1%"=="13" start https://github.com/WindowTop/WindowTop-App
 if "%Pot1%"=="14" start https://store.steampowered.com/
 if "%Pot1%"=="15" start https://store.epicgames.com/
 if "%Pot1%"=="16" start https://github.com/TCNOco/TcNo-Acc-Switcher
